@@ -4,21 +4,3 @@
 [INFO] User login successful
 [WARNING] Disk space running low
 [ERROR] Unable to save file
-[INFO] User login successful
-[WARNING] Disk space running low
-[ERROR] Unable to save file
-[INFO] User login successful
-[WARNING] Disk space running low
-[ERROR] Unable to save file
-[INFO] User login successful
-[WARNING] Disk space running low
-[ERROR] Unable to save file
-[INFO] User login successful
-[WARNING] Disk space running low
-[ERROR] Unable to save file
-[INFO] User login successful
-[WARNING] Disk space running low
-[ERROR] Unable to save file
-[INFO] User login successful
-[WARNING] Disk space running low
-[ERROR] Unable to save file

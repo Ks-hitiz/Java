@@ -1,0 +1,42 @@
+spring:
+  profiles:
+    active: dev
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+app:
+  environment: Development
+  db-url: jdbc:mysql://localhost:3306/devdb
+  service-url: https://dev.api.example.com
+logging:
+  level:
+    root: DEBUG
+
+---
+spring:
+  config:
+    activate:
+      on-profile: qa
+app:
+  environment: QA
+  db-url: jdbc:mysql://localhost:3306/qadb
+  service-url: https://qa.api.example.com
+logging:
+  level:
+    root: INFO
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+app:
+  environment: Production
+  db-url: jdbc:mysql://prod.db.server:3306/proddb
+  service-url: https://api.example.com
+logging:
+  level:
+    root: WARN

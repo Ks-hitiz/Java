@@ -48,7 +48,7 @@ class ConsoleLogger implements Logger {
 
 class FileLogger implements Logger {
     private void writeToFile(String level, String message) {
-        String filename = "src/log.txt";
+        String filename = "week2/src/log.txt";
         try (FileWriter writer = new FileWriter(filename, true)) {
             writer.write("[" + level + "] " + message +"\n");
         }
@@ -91,11 +91,8 @@ class DatabaseLogger implements Logger {
 
             try (Connection conn = DriverManager.getConnection(DB_URL + DB_NAME, USER, PASS);
                  Statement stmt = conn.createStatement()) {
-                String createTableSQL = "CREATE TABLE IF NOT EXISTS logs ("
-                        + "id INT AUTO_INCREMENT PRIMARY KEY, "
-                        + "level VARCHAR(10), "
-                        + "message TEXT, "
-                        + "created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)";
+                String createTableSQL = "CREATE TABLE IF NOT EXISTS logs (id INT AUTO_INCREMENT PRIMARY KEY, "
+                        + "level VARCHAR(10), message TEXT, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)";
                 stmt.executeUpdate(createTableSQL);
                 System.out.println("Table checked/created.");
             }
