@@ -1,0 +1,30 @@
+{
+  "id" : "2c2b9ba9-ca17-4094-9532-f54be1043147",
+  "domains" : [ "TM", "CR", "DM", "PT" ],
+  "firstAction" : "Opposition proceeding commenced",
+  "firstActionDate" : "30 May 2025",
+  "dockets" : [ {
+    "id" : "39df85fc-0d7a-49f8-9953-436d0e8f2147",
+    "reference" : "nz-nzipotm-op-1281757_20250530",
+    "courtId" : "XYZ",
+    "judge" : "Unknown"
+  } ],
+  "parties" : [ {
+    "name" : [ "Dole Asia Holdings Pte. Ltd." ],
+    "type" : "Opponent",
+    "representatives" : [ "Unknown" ]
+  } ],
+  "rights" : [ {
+    "id" : "998b3be5-dfa4-4b23-a818-4ee641a41a98",
+    "opponent" : true,
+    "classification" : {
+      "name" : "JAMES CRISP LIMITED",
+      "type" : "Goods & Services Specification",
+      "className" : "27",
+      "images" : [ "https://app.iponz.govt.nz/app/Common/Utils/GetFile.aspx?&id=0900000181ef7bac", "https://app.iponz.govt.nz/app/Common/Utils/GetFile.aspx?&id=0900000181ef7bad", "https://app.iponz.govt.nz/app/Common/Utils/GetFile.aspx?&id=0900000181ef7baf", "https://app.iponz.govt.nz/app/Common/Utils/GetFile.aspx?&id=0900000181fae667" ]
+    },
+    "name" : "good CRUNCH ; good CRUNCH ; good CRUNCH ; good CRUNCH",
+    "type" : "Combined",
+    "reference" : "Ref-1281757"
+  } ]
+}

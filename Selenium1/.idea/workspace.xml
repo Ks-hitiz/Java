@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec23c2f4-b13f-41b0-affb-a6fd16471d17" name="Changes" comment="Task1">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/automations/ClarivateContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/training/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Selenium2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Selenium2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Selenium2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Selenium2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Selenium2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Selenium2/src/test/java/com/training/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ec23c2f4-b13f-41b0-affb-a6fd16471d17" name="Changes" comment="Task1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
